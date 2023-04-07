@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <form id="create-account-form" method="GET">
+        <div class="title">
+            <h2>Create Account</h2>
+        </div>
+        <!-- username -->
+        <div class="input-group">
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="Name" name="username">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Error Message</p>
+
+        </div>
+        <!-- Email -->
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Error Message</p>
+        </div>
+
+        <!-- password -->
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Error Message</p>
+        </div>
+        <!-- confirm password -->
+        <div class="input-group">
+            <label for="confirm-password">Confirm password</label>
+            <input type="password" name="confirm-password" id="confirm-password" , placeholder="password">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Error Message</p>
+        </div>
+        <button class="btn" type="submit">submit</button>
+
+    </form>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+
+<!-- 
+<i class="fa-regular fa-circle-check"></i>
+
+<i class="fa-regular fa-circle-exclamation"></i>
+
+
+
+
+ -->

@@ -1,0 +1,71 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(220,220,220);
+}
+#create-account-form {
+    width:500px;
+    padding:20px;
+    background-color: #fff;
+}
+.input-group{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.input-text{
+    display: flex;
+    justify-content: flex-start;
+}
+.input-text input{
+    background-color: rgb(220,220,220);
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+/* input:valid{
+    border: 1px solid green;
+}
+input:invalid{
+    border: 1px solid red;
+} */
+
+
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+/* .input-group p {
+    font-size: 15px;
+    color:red;
+    
+} */
+/* .error input {
+    border:3px red solid;
+}
+.success input {
+    border:3px green solid;
+} */
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 39px;
+    width: 80px;
+    background-color: #6610f2;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    filter: brightness(200%);
+    background-color: #3e177c;
+}
